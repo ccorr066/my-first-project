@@ -1,0 +1,60 @@
+:root {
+   --red-050: #f2d7d5;
+   --red-100: #e6b0aa;
+   --red-200: #d98880;
+   --red-300: #cd6155;
+   --red-400: #c0392b;
+   --red-500: #a93226;
+   --red-600: #922b21;
+   --red-700: #7b241c;
+   --red-800: #641e16;
+
+   --gray-050: #eaeded;
+   --gray-100: #d5dbdb;
+   --gray-200: #bfc9ca;
+   --gray-300: #aab7b8;
+   --gray-400: #95a5a6;
+   --gray-500: #839192;
+   --gray-600: #717d7e;
+   --gray-700: #5f6a6a;
+   --gray-800: #4d5656;
+
+   --blue-050: #d6eaf8;
+   --blue-100: #aed6f1;
+   --blue-200: #85c1e9;
+   --blue-300: #5dade2;
+   --blue-400: ##3498db;
+   --blue-500: #2e86c1;
+   --blue-600: #2874a6;
+   --blue-700: #21618c;
+   --blue-800: #1b4f72;
+}
+h1 {
+   font-style: oblique;
+   border-style: solid;
+   border-color: black;
+   color: var(--blue-500);
+}
+button {
+   padding: 5px;
+   color: var(--gray-700);
+   margin: 100;
+}
+button:hover {
+   background-color: var(--gray-400);
+}
+a {
+   color: var(--blue-300);
+}
+a:hover {
+   color: var(--red-500);
+}
+.title-1,
+.title-2,
+.title-3 {
+   cursor: pointer;
+   user-select: none;
+}
+body {
+   background: var(--gray-200);
+}
