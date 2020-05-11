@@ -13,3 +13,5 @@ $(".title-3").click(function () {
 $("#btnHinge").click(function () {
    $("body").addClass("animated hinge");
 });
+
+// this is a change
